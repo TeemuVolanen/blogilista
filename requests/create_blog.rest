@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRlc3RpVHl5cHBpIiwiaWQiOiI2MWQ0M2Q0NDFjNWMyNDdhYTcxYTI5NDgiLCJpYXQiOjE2NDEzMDk3MjF9.9dcXIHaaemg0_xJELtSvy11i1jcLcDPzBpbRAKg4T4E
+
+{
+"title": "Testi blogi4",
+"author": "Tero Testaaja",
+"url": "https://testi.fi/4",
+"likes": 123,
+"userId": "61d43d441c5c247aa71a2948"
+}
